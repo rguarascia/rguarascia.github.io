@@ -1,3 +1,13 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+
+
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -22,6 +32,9 @@ p {
 }
 .parallax-container#nyc-letters {
   height: 600px;
+}
+.parallax-container#rguarascia {
+  height: 550px;
 }
   .parallax-container .section {
     width: 100%;

@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+<!--Materialize CSS-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+<link href="css/MyStyles.css" type="text/css" rel="stylesheet"/>
+</head>
+
+<body>
+<nav>
+  <ul class="right hide-on-med-and-down">
+    <li><a href="#!">Home</a></li>
+    <li><a href="#!">Photos</a></li>
+    <li><a href="#!">Site Seeing</a></li>
+    <li><a href="#!">Hotels</a></li>
+    <li><a href="#!">Contact</a></li>
+  </ul>
+  <ul id="slide-out" class="side-nav">
+    <li><a href="#!">Home</a></li>
+    <li><a href="#!">Photos</a></li>
+    <li><a href="#!">Site Seeing</a></li>
+    <li><a href="#!">Hotels</a></li>
+    <li><a href="#!">Contact</a></li>
+  </ul>
+  <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a> </nav>
+<div class="parallax-container">
+  <div class="parallax"><img src="images/nyc.jpg"></div>
+</div>
+<div class="section white">
+  <div class="row container">
+    <h2 class="header">New York City</h2>
+    <p class="grey-text text-darken-3 lighten-3">Home to the Empire State Building, Times Square, Statue of Liberty and other iconic sites, New York City is a fast-paced, globally influential center of art, culture, fashion and finance. The city's 5 boroughs sit where the Hudson River meets the Atlantic Ocean, with the island borough of Manhattan at the "Big Apple's" core.</p>
+  </div>
+</div>
+<div class="parallax-container" id="nyc-letters">
+  <div class="parallax"><img src="images/nyc-letters.jpg"></div>
+</div>
+<div class="parallax-container" id="nyc-letters">
+  <div class="parallax"><img src="images/empire.jpg"></div>
+  <div class="caption center-align"> <i>
+    <h2 class="thin grey-text text-lighten-2">"The City That Never Sleeps"</h2>
+    </i> </div>
+</div>
+<div class="section white">
+  <div class="row container">
+    <h2 class="header">Empire State Building</h2>
+    <p class="grey-text text-darken-3 lighten-3">The Empire State Building was completed in 1931, in the midst of the Great Depression. Upon completion, it became the tallest building in NY, surpassing the recently completed Chrysler Building, which had held the title for less than a year. Because of the ongoing Depression and the building's distance from public transportation, the Empire State Building had difficulty finding tenants, and for many years it was derisively referred to as the "Empty State Building." In fact, tenants were so few that in its first year of operation, the Empire State Building Observatory made as much money ($2 million) as the building's owners made in rent. It wasn't until the early 1950s, when the building was sold to Roger L. Stevens and his business partners, that the building began to be profitable.</p>
+  </div>
+</div>
+<div class="parallax-container" id="nyc-letters">
+  <div class="parallax"><img src="images/walstreet.jpg"></div>
+</div>
+<footer class="page-footer grey">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">Company Bio</h5>
+        <p class="grey-text text-lighten-4">We are a team of College students who make sites like this in our spare time as if it was our full time jon while keeping up with our studies.</p>
+      </div>
+      <div class="col l3 s12">
+        <h5 class="white-text">Settings</h5>
+        <ul>
+          <li><a class="white-text" href="#!">Link 1</a></li>
+          <li><a class="white-text" href="#!">Link 2</a></li>
+          <li><a class="white-text" href="#!">Link 3</a></li>
+          <li><a class="white-text" href="#!">Link 4</a></li>
+        </ul>
+      </div>
+      <div class="col l3 s12">
+        <h5 class="white-text">Connect</h5>
+        <ul>
+          <li><a class="white-text" href="#!">Link 1</a></li>
+          <li><a class="white-text" href="#!">Link 2</a></li>
+          <li><a class="white-text" href="#!">Link 3</a></li>
+          <li><a class="white-text" href="#!">Link 4</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container"> Made by <a class="brown-text text-lighten-5" href="#">Ryan Guarascia @ Minimalist Software</a> </div>
+  </div>
+</footer>
+
+<!--Materialize Scripts--> 
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script> 
+<script src="./js/materialize.js"></script> 
+<script src="./js/init.js"></script> 
+<script type="text/javascript">
+	$(document).ready(function(){
+	      $('.parallax').parallax();
+        $(".button-collapse").sideNav();
+	    });
+</script>
+</body>
+</html>
