@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Ryan Guarascia | Design Two</title>
+	<!-- Font links -->
+	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=latin" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Arizonia' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" type="text/css" href="./jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="examples.css" />
+	<style>
+	@font-face {
+  		font-family: 'Open Sans';
+  		font-style: normal;
+  		font-weight: 400;
+  		src: local('Open Sans'), local('OpenSans'), url('http://themes.googleusercontent.com/static/fonts/opensans/v5/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
+}
+	h1{
+		font-size: 5em;
+		  		font: 400 100px/1.3 'Arizonia', Helvetica, sans-serif;
+  		color: #eceff1;
+  		text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+		margin:0;
+		padding:0;
+	}
+	.intro p{
+		color: #fff;
+	}
+
+	/* Centered texts in each section
+	.section{
+		text-align:center;
+	}
+
+	/* Fixed header and footer.*/
+	#header, #footer{
+		position:fixed;
+		height: 130px;
+		display:block;
+		width: 100%;
+		background: #333;
+		z-index:9;
+		text-align:center;
+		color: #f2f2f2;
+		padding: 20px 0 0 0;
+		font-family: 'open sans',arial,sans-serif;
+		font-size: 3em;
+	}
+	#footer {
+		height: 30px !important;
+		font-size: 1em !important;
+		padding: 10px 0 0 0 !important;
+	}
+
+	#header{
+		padding:0 !important;
+		margin: 0 !important;
+		top:0px;
+  		font: 400 100px/1.3 'Arizonia', Helvetica, sans-serif;
+  		color: #eceff1;
+  		text-shadow: 4px 4px 0px rgba(0,0,0,0.1); 
+	}
+	#footer{
+		bottom:0px;
+	}
+	div#slide2 {
+		background-color: #9575cd !important;
+	}
+	div#slide3 {
+		background-color: #ff9800 !important;
+	}
+	div#section3 {
+		background-color: #212121 !important;
+	}
+	/* Bottom menu*/
+	#infoMenu {
+		bottom: 80px;
+	}
+	#infoMenu li a {
+		color: #fff;
+		z-index: 999;
+	}
+	</style>
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="./jquery.slimscroll.min.js"></script>
+
+	<script type="text/javascript" src="./jquery.fullPage.min.js"></script>
+
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				anchors: ['firstPage', 'secondPage', '3rdPage'],
+				sectionsColor: ['#00b0ff', '#1BBC9B', '#d84315'],
+				css3: true
+			});
+		});
+	</script>
+
+</head>
+<body>
+
+<div id="header">"Just keep scrolling"</div>
+<div id="footer">Made by Ryan Guarascia @ Minimalist Software</div>
+
+<!-- MAIN SCROLL -->
+<div id="fullpage">
+	<!-- FIRST SLIDE -->
+	<div class="section " id="section0">
+		<div class="intro">
+			<div class="photo">
+				<h1>What?</h1>
+				<p>Scroll each section with a single swipe</p>
+			</div>
+		</div>
+	</div>
+	<!-- SECOND SLIDE-->
+	<div class="section" id="section1">
+		<!--SUB-SLIDE ONE -->
+	    <div class="slide" id="slide1">
+			<div class="intro">
+				<h1>Pretty cool right?</h1>
+				<p>
+					Scrolling vertical is cool, but horitonzal scolling is even cooler! It is almost like you have a small "slide-show".
+				</p>
+			</div>
+		</div>
+		<!--SUB-SLIDE TWO -->
+	    <div class="slide" id="slide2">
+	    	<div class="intro" id="slide2">
+			<h1>Weeeeeee</h1>
+			<p>
+				Isn't horitonzal scrolling fun! You can vertically scroll has your scroll horitonzal as well... It is pretty fancy.
+			</p>
+			</div>
+		</div>
+		<!--SUB-SLIDE THREE -->
+		<div class="slide" id="slide3">
+	    	<div class="intro" id="slide3">
+			<h1>Guess what?</h1>
+			<p>
+				As you scroll, it will contiune to scroll in a loop... Forever and ever and ever. Try it, press the next arrow.
+			</p>
+			</div>
+		</div>
+	<!-- THIRD SLIDE-->
+	</div>
+	<div class="section" id="section2">
+		<div class="intro">
+			<h1>Remember, just keep scrolling.</h1>
+		</div>
+	</div>
+	<div class="section" id="section3">
+		<div class="intro">
+			<h1>And DON'T PANIC</h1>
+		</div>
+	</div>
+<!-- END OF SCROLLLEEEERRR-->
+</div>
+
+</body>
+</html>
