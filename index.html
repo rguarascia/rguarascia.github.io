@@ -20,6 +20,10 @@
 
 </script>
 	<style type="text/css">
+  @font-face {
+    font-family: name;
+    src: url(./Notera.ttf);
+}
 	div#title {
 		margin-top: 13%;
 	}
@@ -36,7 +40,12 @@
 	}
 	.parallax-container#rguarascia {
 		margin: 10px;
-	}
+	} 
+  h2#name {
+    font-family: name;
+    font-size: 6em !important;
+    text-shadow: 4px 4px 0px rgba(0,0,0,.3);
+  }
 	</style>
 	</head>
 	<body>
@@ -52,7 +61,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<div class="parallax-container" id="rguarascia">
   <div class="parallax"><img id="rguarascia" src="./design-one/images/rguarascia.jpg"></div>
     <div class="caption center-align" id="title"> <i>
-    <h2 class="medium grey-text text-lighten-5">Ryan Guarascia</h2></i> </div>
+    <h2 class="medium grey-text text-lighten-5" id="name">Ryan Guarascia</h2></i> </div>
 </div>
 <div align="center">
 
