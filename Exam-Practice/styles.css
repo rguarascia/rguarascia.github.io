@@ -1,0 +1,37 @@
+td {
+	width: 150px;
+	height: 150px;
+}
+td.ground 
+{
+	background-color: darkred;
+	height: 2px;
+}
+img.ball {
+	width: 70px;
+	height: 70px;
+	position: relative;
+	left: 70px;
+	top: 60px;
+	z-index: -1;
+}
+img.arrow {
+	width: 90px;
+	height: 40px;
+	position: relative;
+	left: 115px;
+	top: 10px;
+}
+img#first {
+	opacity: 0.1;
+}
+img#second {
+	opacity: 0.3;
+}
+img#third {
+	opacity: 0.6;
+}
+img#last {
+	opacity: 1;
+	top: -20px;
+}
