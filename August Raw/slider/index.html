@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Slider</title>
+	<!-- jQuery library (served from Google) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<!-- bxSlider Javascript file -->
+	<script src="./jquery.bxslider.min.js"></script>
+	<!-- bxSlider CSS file -->
+	<link href="./jquery.bxslider.css" rel="stylesheet" />
+</head>
+<body>
+
+<ul class="bxslider">
+  <li><img src="./images/example-slide-1.jpg" /></li>
+  <li><img src="./images/example-slide-2.jpg" /></li>
+  <li><img src="./images/example-slide-3.jpg" /></li>
+  <li><img src="./images/example-slide-4.jpg" /></li>
+</ul>
+
+<script type="text/javascript">
+	
+	$(document).ready(function(){
+  	$('.bxslider').bxSlider();
+	});
+
+</script>
+</body>
+</html>

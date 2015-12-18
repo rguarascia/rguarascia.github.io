@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>August Raw | Index</title>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script>var $j11 = jQuery.noConflict(true);</script>
+  <script src="./js/jquery.bxslider.min.js"></script>
+  <link href="./css/jquery.bxslider.css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="./css/Styles.css">
+  <!-- bxslider -->
+</head>
+<body>
+<div id="header">
+	<span class="symbol">?</span><span class="august">August</span><span class="raw">RAW</span><span class="symbol">!</span>
+	<div class="logos">
+		<img width="6%" src="./images/august-raw1.png">
+		<img width="6%" src="./images/compass-raw.png">
+		<img width="6%" src="./images/create_conquer.png">
+		<img width="6%" src="./images/lion-raw.png">
+		<img width="6%" src="./images/raw-wings.png">
+		<img width="6%" src="./images/raw-wings2.png">
+		<img width="6%" src="./images/august-raw1.png">
+		<img width="6%" src="./images/compass-raw.png">
+		<img width="6%" src="./images/create_conquer.png">
+		<img width="6%" src="./images/lion-raw.png">
+		<img width="6%" src="./images/raw-wings.png">
+	</div>
+</div>
+
+<div class="wrapper">
+	
+<div class="mobilenav">
+  <li><a href="#">Home</a></li>
+  <li><a href="#">Shop</a></li>
+  <li><a href="#">About</a></li>
+  <li><a href="#">Contact</a></li>
+</div>
+<a href="javascript:void(0)" class="icon">
+  <div class="hamburger">
+    <div class="menui top-menu"></div>
+    <div class="menui mid-menu"></div>
+    <div class="menui bottom-menu"></div>
+  </div>
+</a>
+<ul class="bxslider">
+  <li><img src="./images/image-1.jpg" /></li>
+  <li><img src="./images/image-2.jpg" /></li>
+  <li><img src="./images/image-3.jpg" /></li>
+</ul>
+
+</div>
+<script type="text/javascript">
+	
+  // Hamburger Menu
+  function togglescroll() {
+    $('body').on('touchstart', function(e) {
+      if ($('body').hasClass('noscroll')) {
+        e.preventDefault();
+      }
+    });
+  }
+
+  $(document).ready(function() {
+    togglescroll()
+    $(".icon").click(function() {
+      $(".mobilenav").fadeToggle(500);
+      $(".top-menu").toggleClass("top-animate");
+      $("body").toggleClass("noscroll");
+      $(".mid-menu").toggleClass("mid-animate");
+      $(".bottom-menu").toggleClass("bottom-animate");
+    });
+  });
+
+  // Esc
+
+  $(document).keydown(function(e) {
+    if (e.keyCode == 27) {
+      $(".mobilenav").fadeOut(500);
+      $(".top-menu").removeClass("top-animate");
+      $("body").removeClass("noscroll");
+      $(".mid-menu").removeClass("mid-animate");
+      $(".bottom-menu").removeClass("bottom-animate");
+    }
+  });
+
+</script>
+<script type="text/javascript">
+  
+  $(document).ready(function(){
+    $('.bxslider').bxSlider();
+  });
+
+</script>
+</body>
+</html
