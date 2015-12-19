@@ -9,6 +9,7 @@
   <script src="./js/jquery.bxslider.min.js"></script>
   <!-- FastClick lib -->
   <script  type='application/javascript' src="https://raw.githubusercontent.com/ftlabs/fastclick/master/lib/fastclick.js"></script>
+  <script src="./js/modernizr.js"></script>
   <link href="./css/jquery.bxslider.css" rel="stylesheet" />
 	<link rel="stylesheet" type="text/css" href="./css/Styles.css">
   <!-- bxslider -->
@@ -55,37 +56,22 @@
 </div>
 <script type="text/javascript">
 	
-  // Hamburger Menu
-  function togglescroll() {
-    $('body').on('touchstart', function(e) {
-      if ($('body').hasClass('noscroll')) {
-        e.preventDefault();
-      }
+$(document).ready(function () {
+    $(".icon").click(function () {
+        $(".mobilenav").fadeToggle(500);
+        $(".top-menu").toggleClass("top-animate");
+        $(".mid-menu").toggleClass("mid-animate");
+        $(".bottom-menu").toggleClass("bottom-animate");
     });
-  }
 
-  $(document).ready(function() {
-    togglescroll()
-    $(".icon").click(function() {
-      $(".mobilenav").fadeToggle(500);
-      $(".top-menu").toggleClass("top-animate");
-      $("body").toggleClass("noscroll");
-      $(".mid-menu").toggleClass("mid-animate");
-      $(".bottom-menu").toggleClass("bottom-animate");
+    $("li.voce-menu a").click(function () {
+        $(".mobilenav").fadeToggle(500);
+        $(".top-menu").toggleClass("top-animate");
+        $(".mid-menu").toggleClass("mid-animate");
+        $(".bottom-menu").toggleClass("bottom-animate");
     });
-  });
+});
 
-  // Esc
-
-  $(document).keydown(function(e) {
-    if (e.keyCode == 27) {
-      $(".mobilenav").fadeOut(500);
-      $(".top-menu").removeClass("top-animate");
-      $("body").removeClass("noscroll");
-      $(".mid-menu").removeClass("mid-animate");
-      $(".bottom-menu").removeClass("bottom-animate");
-    }
-  });
 
 </script>
 <script type="text/javascript">
