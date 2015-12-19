@@ -1,4 +1,4 @@
-@media screen and (max-width: 840px) {
+@media screen and (max-device-width: 1010px)  {
   div.logos img {
     width: 5% !important;
   }
