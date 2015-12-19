@@ -1,3 +1,4 @@
+/* Mobile Apperence */
 @media screen and (max-device-width: 480px)  {
   div.logos img {
     width: 5% !important;
@@ -18,6 +19,32 @@
   }
 }
 
+/* Resized browser */
+@media screen and (max-width: 840px) {
+  div.logos img {
+    width: 5% !important;
+  }
+  div.logos {
+    position: relative !important;
+    top: -70px !important;
+  }
+  span.symbol, span.raw, span.august {
+    font-size: 70% !important;
+  }
+  div.wrapper {
+    top: -30px;
+  }
+  .icon {
+    top: 0px !important;
+    left: 0px !important;
+  }
+  .bx-wrapper {
+    width: 95% !important;
+    margin: auto !important;
+    position: relative !important;
+    top: -40px;
+  }
+}
 
   @font-face {
   	font-family: rawFont;
