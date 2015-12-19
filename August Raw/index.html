@@ -7,6 +7,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script>var $j11 = jQuery.noConflict(true);</script>
   <script src="./js/jquery.bxslider.min.js"></script>
+  <!-- FastClick lib -->
+  <script  type='application/javascript' src="https://raw.githubusercontent.com/ftlabs/fastclick/master/lib/fastclick.js"></script>
   <link href="./css/jquery.bxslider.css" rel="stylesheet" />
 	<link rel="stylesheet" type="text/css" href="./css/Styles.css">
   <!-- bxslider -->
@@ -92,6 +94,9 @@
     $('.bxslider').bxSlider();
   });
 
+  $(function() {
+    FastClick.attach(document.body);
+  });
 </script>
 </body>
 </html
