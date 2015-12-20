@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>August Raw | Details</title>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script>var $j11 = jQuery.noConflict(true);</script>
+  <script src="../js/jquery.bxslider.min.js"></script>
+  <!-- FastClick lib -->
+  <script  type="application/javascript" src="https://raw.githubusercontent.com/ftlabs/fastclick/master/lib/fastclick.js"></script>
+  <script src="../js/modernizr.js"></script>
+  <!-- bxslider -->
+  <link href="../css/jquery.bxslider.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../css/Styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:100" rel="stylesheet" type="text/css">
+  <style type="text/css">
+.bx-wrapper {
+	width: 40% !important;
+	margin-left: 10% !important;
+	margin-right: 0px !important;
+	display: inline-block;
+	float: left;
+	margin-bottom: 50px;
+}
+@font-face {
+	font-family: custom;
+	src: url(../font/SourceSansPro-Light.ttf);
+}
+div.details {
+	float: left;
+	width: 38%;
+	display: inline-block;
+	font-family: custom;
+	margin-top: 1%;
+}
+h4#details {
+	font-family: custom;
+	font-size: 3.8em;
+	margin: 0 !important;
+	text-align: center;
+	white-space: break-word;
+}
+div.details p {
+	font-family: custom;
+	font-size: 1em;
+	color: #808080;
+	text-align: right;
+}
+div.details h5 {
+	font-family: custom;
+	font-size: 2em;
+	margin: 0px;
+	color: #808080;
+	text-align: right;
+}
+label {
+  font-family: inherit;
+}
+form {
+  text-align: right;
+  font-family: inherit;
+}
+
+</style>
+  </head>
+  <body>
+<div id="header"> <a href="../index.html"><span class="symbol">?</span><span class="august">August</span><span class="raw">RAW</span><span class="symbol">!</span></a>
+    <div class="logos"> <img width="6%" src="../images/august-raw1.png"> <img width="6%" src="../images/compass-raw.png"> <img width="6%" src="../images/create_conquer.png"> <img width="6%" src="../images/lion-raw.png"> <img width="6%" src="../images/raw-wings.png"> <img width="6%" src="../images/raw-wings2.png"> <img width="6%" src="../images/august-raw1.png"> <img width="6%" src="../images/compass-raw.png"> <img width="6%" src="../images/create_conquer.png"> <img width="6%" src="../images/lion-raw.png"> <img width="6%" src="../images/raw-wings.png"> </div>
+  </div>
+<div class="wrapper">
+    <div class="mobilenav">
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="../store.html">Shop</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+  </div>
+    <a href="javascript:void(0)" class="icon">
+  <div class="hamburger">
+      <div class="menui top-menu"></div>
+      <div class="menui mid-menu"></div>
+      <div class="menui bottom-menu"></div>
+    </div>
+  </a>
+    <ul class="bxslider">
+    <li><img src="../images/1.jpg" /></li>
+  </ul>
+
+
+    <h4 id="details">Graphic T-Shirt</h4>
+    <div class="details">
+    <h5>PRICE: $50 CAD</h5>
+    <p>A description of the shirt. A description of the shirt. A description of the shirt.</p>
+
+    <form>
+      <select name="size">
+        <option disabled="true" selected="true">Size</option>
+        <option>XS</option>
+        <option>S</option>
+        <option>M</option>
+        <option>L</option>
+        <option>XL</option>
+      </select>
+      <br />
+      <input type="submit" style="width: 100px;" value="Add to cart">
+    </form>
+
+  </div>
+  </div>
+<script type="text/javascript">
+	
+$(document).ready(function () {
+    $(".icon").click(function () {
+        $(".mobilenav").fadeToggle(500);
+        $(".top-menu").toggleClass("top-animate");
+        $(".mid-menu").toggleClass("mid-animate");
+        $(".bottom-menu").toggleClass("bottom-animate");
+    });
+
+    $("li.voce-menu a").click(function () {
+        $(".mobilenav").fadeToggle(500);
+        $(".top-menu").toggleClass("top-animate");
+        $(".mid-menu").toggleClass("mid-animate");
+        $(".bottom-menu").toggleClass("bottom-animate");
+    });
+});
+
+
+</script> 
+<script type="text/javascript">
+  
+  $(document).ready(function(){
+    $('.bxslider').bxSlider();
+  });
+
+  $(function() {
+    FastClick.attach(document.body);
+  });
+</script>
+</body>
+</html>
