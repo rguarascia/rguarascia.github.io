@@ -206,7 +206,8 @@
   }
 
   .mobilenav li a {
-    font-size: 150%;
+    font-family: augustFont !important;
+    font-size: 210%;
     color: black;
     text-decoration: none;
     font-weight: 300;
