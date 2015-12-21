@@ -36,6 +36,9 @@ div.content {
   width: 90% !important;
   margin: auto !important;
 }
+.mobilenav li a {
+	font-size: 300% !important;
+}
 }
 /* END */
 
@@ -82,6 +85,9 @@ div.content {
 .form-style-8 {
   width: 90% !important;
   margin: auto !important;
+}
+.mobilenav li a {
+	font-size: 300% !important;
 }
 }
 /* END */
@@ -255,7 +261,7 @@ div.content {
 }
 .mobilenav li a {
 	font-family: augustFont !important;
-	font-size: 210%;
+	font-size: 280%;
 	color: black;
 	text-decoration: none;
 	font-weight: 300;
