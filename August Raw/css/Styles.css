@@ -24,6 +24,18 @@ h4#details{
 div.details h5 {
 	font-size: 1.5em !important;
 }
+img#header {
+	width: 100% !important;
+	height: inherit !important;
+}
+div.content {
+	font-size: .5em;
+	width: 100% !important;
+}
+.form-style-8 {
+  width: 90% !important;
+  margin: auto !important;
+}
 }
 /* END */
 
@@ -58,6 +70,18 @@ h4#details{
 }
 div.details h5 {
 	font-size: 1.5em !important;
+}
+img#header {
+	width: 100% !important;
+	height: inherit !important;
+}
+div.content {
+	font-size: .5em;
+	width: 100% !important;
+}
+.form-style-8 {
+  width: 90% !important;
+  margin: auto !important;
 }
 }
 /* END */
@@ -148,8 +172,6 @@ div.content {
 	text-align: left;
 
 }
-
-
 /* ----------------------  Menu  -------------------------` */
 * {
 	font-family: 'helvetica nue', sans-serif;
