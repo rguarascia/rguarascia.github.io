@@ -81,6 +81,11 @@ div.details h5 {
   font-weight: 400;
   src: local('Open Sans'), local('OpenSans'), url('http://themes.googleusercontent.com/static/fonts/opensans/v5/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
 }
+@font-face {
+	font-family: custom;
+	src: url(../font/SourceSansPro-Light.ttf);
+	text-shadow: 1px 1px 0px rgba(0,0,0,0.1);
+}
 
 /* ------------------- Regular Styles -------------------*/
 span.symbol {
@@ -125,8 +130,24 @@ div.logos {
 div.wrapper {
 	position: relative;
 }
+img#header {
+	width: 800px;
+	height: 350px;
+	margin: 0 auto !important;
+	display: block !important;
+	padding:1px;
+    border:1px solid #021a40;
 
+}
+div.content {
+	width: 800px;
+	margin: 0 auto;
+	font-family: custom;
+	color: #999;
+	font-size: 1em;
+	text-align: left;
 
+}
 
 
 /* ----------------------  Menu  -------------------------` */

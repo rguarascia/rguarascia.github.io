@@ -1,6 +1,7 @@
 @font-face {
 	font-family: custom;
 	src: url(../font/SourceSansPro-Light.ttf);
+	text-shadow: 1px 1px 0px rgba(0,0,0,0.1);
 }
 
 .og-grid {
@@ -22,6 +23,7 @@
 	outline: none;
 	display: block;
 	position: relative;
+
 }
 .og-grid li.og-expanded > a::after {
 	top: auto;
@@ -126,6 +128,7 @@
 	margin: 30px 0 0;
 	outline: none;
 	font-family: custom;
+	text-shadow: 1px 1px 0px rgba(0,0,0,0.1);
 }
 .og-details a::before {
 	content: '\2192';

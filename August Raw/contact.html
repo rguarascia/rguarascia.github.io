@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>August Raw | Contact</title>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>var $j11 = jQuery.noConflict(true);</script>
+<script src="./js/jquery.bxslider.min.js"></script>
+<!-- FastClick lib -->
+<script type="application/javascript" src="./js/fastclick.js"></script>
+<script src="./js/modernizr.js"></script>
+<link rel="stylesheet" type="text/css" href="./css/Styles.css">
+<style type="text/css">
+  
+  .form-style-8{
+    font-family: 'Open Sans Condensed', arial, sans;
+    width: 500px;
+    padding: 30px;
+    background: #FFFFFF;
+    margin: 50px auto;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+    -webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);
+
+}
+.form-style-8 h2{
+    border-bottom: 1px solid #ddd;
+    text-transform: uppercase;
+    font-family: custom;
+    text-align: center;
+    color: #999;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 20px;
+    margin: -30px -30px 30px -30px;
+}
+.form-style-8 input[type="text"],
+.form-style-8 input[type="date"],
+.form-style-8 input[type="datetime"],
+.form-style-8 input[type="email"],
+.form-style-8 input[type="number"],
+.form-style-8 input[type="search"],
+.form-style-8 input[type="time"],
+.form-style-8 input[type="url"],
+.form-style-8 input[type="password"],
+.form-style-8 textarea,
+.form-style-8 select 
+{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    margin-bottom: 10px;
+    font: 16px custom;
+    height: 45px;
+}
+.form-style-8 textarea{
+    resize:none;
+    overflow: hidden;
+}
+.form-style-8 input[type="button"], 
+.form-style-8 input[type="submit"]{
+    background-color: white;
+    border: 1px solid #999;
+    display: inline-block;
+    cursor: pointer;
+    color: #999;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 14px;
+    padding: 8px 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.form-style-8 input[type="button"]:hover, 
+.form-style-8 input[type="submit"]:hover {
+    -webkit-box-shadow: 0px 0px 8px 2px #999;
+      -moz-box-shadow: 0px 0px 8px 2px #999;
+        box-shadow: 0px 0px 8px 2px #999;
+    border: 1px solid white;
+}
+
+</style>
+</head>
+<body>
+<div id="header"> <a href="./index.html"><span class="symbol">?</span><span class="august">August</span><span class="raw">RAW</span><span class="symbol">!</span></a>
+  <div class="logos"> <img width="6%" src="./images/august-raw1.png"> <img width="6%" src="./images/compass-raw.png"> <img width="6%" src="./images/create_conquer.png"> <img width="6%" src="./images/lion-raw.png"> <img width="6%" src="./images/raw-wings.png"> <img width="6%" src="./images/raw-wings2.png"> <img width="6%" src="./images/august-raw1.png"> <img width="6%" src="./images/compass-raw.png"> <img width="6%" src="./images/create_conquer.png"> <img width="6%" src="./images/lion-raw.png"> <img width="6%" src="./images/raw-wings.png"> </div>
+</div>
+<div class="wrapper">
+  <div class="mobilenav">
+    <li><a href="./index.html">Home</a></li>
+    <li><a href="./store.html">Shop</a></li>
+    <li><a href="./about.html">About</a></li>
+    <li><a href="./contact.html">Contact</a></li>
+  </div>
+  <a href="javascript:void(0)" class="icon">
+  <div class="hamburger">
+    <div class="menui top-menu"></div>
+    <div class="menui mid-menu"></div>
+    <div class="menui bottom-menu"></div>
+  </div>
+  </a>
+  <div class="content">
+    <div class="form-style-8">
+  <h2>Give us a shout!</h2>
+  <form>
+    <input type="text" name="field1" placeholder="Full Name" />
+    <input type="email" name="field2" placeholder="Email" />
+    <textarea placeholder="Message" onkeyup="adjust_textarea(this)"></textarea>
+    <input type="button" value="Send Message" />
+  </form>
+</div>
+  </div>
+</div>
+<script type="text/javascript">
+  
+$(document).ready(function () {
+    $(".icon").click(function () {
+        $(".mobilenav").fadeToggle(500);
+        $(".top-menu").toggleClass("top-animate");
+        $(".mid-menu").toggleClass("mid-animate");
+        $(".bottom-menu").toggleClass("bottom-animate");
+    });
+
+    $("li.voce-menu a").click(function () {
+        $(".mobilenav").fadeToggle(500);
+        $(".top-menu").toggleClass("top-animate");
+        $(".mid-menu").toggleClass("mid-animate");
+        $(".bottom-menu").toggleClass("bottom-animate");
+    });
+});
+
+//auto expand textarea
+function adjust_textarea(h) {
+    h.style.height = "20px";
+    h.style.height = (h.scrollHeight)+"px";
+}
+</script> 
+<script type="text/javascript">
+  $(function() {
+    FastClick.attach(document.body);
+  });
+</script>
+</body>
+</html>
