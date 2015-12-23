@@ -117,21 +117,22 @@ div.content {
 	src: url(../font/SourceSansPro-Light.ttf);
 	text-shadow: 1px 1px 0px rgba(0,0,0,0.1);
 }
+@font-face {
+	font-family: norml-font;
+	src: url(../font/normal.otf);
+}
 /* ------------------- Regular Styles -------------------*/
 span.symbol {
 	font-family: Agency_FB;
-	font-size: 1.2em;
-	margin-right: .2em;
-	margin-left: .2em;
+	font-size: 0.9em;
 }
 span.raw {
-	font-family: rawFont;
-	margin-left: .3em;
+	font-family: norml-font;
 	font-size: 1.2em;
 	letter-spacing: 4px;
 }
 span.august {
-	font-family: augustFont;
+	font-family: norml-font;
 	font-size: 1.2em;
 	letter-spacing: 4px;
 }
@@ -258,7 +259,7 @@ div.content {
 	margin: auto;
 }
 .mobilenav li a {
-	font-family: augustFont !important;
+	font-family: norml-font !important;
 	font-size: 280%;
 	color: black;
 	text-decoration: none;
