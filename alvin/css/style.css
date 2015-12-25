@@ -1,7 +1,7 @@
 html, body
 {
     height: auto;
-    width: auto;
+    width: 400px;
 }
 body {
   background-image: url(../images/alvin.png);
@@ -9,6 +9,11 @@ body {
   background-repeat: no-repeat;
   background-color: #171717;
   color: white;
+}
+nav {
+  position: relative;
+  top: 0;
+  left: 1040px;
 }
 a {
   text-decoration: none;
