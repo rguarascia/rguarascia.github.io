@@ -5,8 +5,6 @@
 
 body {
   background-color: #171717;
-  max-width: 700px;
-  max-height: 600px;
 }
 
 img#alvin {
@@ -23,11 +21,12 @@ h1#title {
   font-family: "Times New Roman", Times, serif;
   font-weight: lighter;
   font-size: 53px;
-  margin: 0;
-  padding: 0;
-  position: relative;
+  margin: 0 !important;
+  padding: 0 !important;
+  position:  relative;
   left: 700px;
   top: -500px;
+  width: 400px;
 }
 h3#subtitle {
   color: white;
@@ -47,7 +46,5 @@ nav {
   font-family: "Times New Roman", Times, serif;
   font-weight: lighter;
   font-size: 18px;
-  position: absolute;
-  top: 0;
-  right: 0;
+  float: right;
 }
