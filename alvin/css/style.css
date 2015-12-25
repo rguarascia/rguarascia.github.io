@@ -10,11 +10,6 @@ body {
   background-color: #171717;
   color: white;
 }
-nav {
-  position: relative;
-  top: -30px;
-float: right
-}
 a {
   text-decoration: none;
   color: white;
