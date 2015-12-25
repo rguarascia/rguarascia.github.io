@@ -1615,7 +1615,7 @@
   background-color: #FFFFFF !important; }
 
 .white-text {
-  color: #FFFFFF !important; }
+  color: #a0a0a0 !important; }
 
 .transparent {
   background-color: transparent !important; }
@@ -2127,7 +2127,7 @@ img.responsive-img, video.responsive-video {
     position: absolute;
     left: 50%;
     bottom: 0;
-    min-width: 100%;
+    min-width: 1266px;
     min-height: 100%;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
@@ -2199,7 +2199,7 @@ ul.staggered-list li {
 footer.page-footer {
   margin-top: 20px;
   padding-top: 20px;
-  background-color: #ee6e73; }
+  background-color: #171717; }
   footer.page-footer .footer-copyright {
     overflow: hidden;
     height: 50px;
@@ -2326,7 +2326,7 @@ td, th {
         text-align: center; }
       .collection .collection-item.avatar .title {
         font-size: 16px; }
-      .collection .collection-item.avatar p {
+      .collection .collection-item.avatar parall {
         margin: 0; }
       .collection .collection-item.avatar .secondary-content {
         position: absolute;
