@@ -11,9 +11,9 @@ body {
   color: white;
 }
 nav {
-  position: absolute;
-  top: 0;
-  right: 0;
+  position: relative;
+  top: -30px;
+float: right
 }
 a {
   text-decoration: none;
