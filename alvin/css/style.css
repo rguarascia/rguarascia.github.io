@@ -1,69 +1,53 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
+@font-face {
+  font-family: reg;
+  src: url(./font/Times-Regular.ttf);
+}
 
+body {
+  background-color: #171717;
+  max-width: 700px;
+  max-height: 600px;
+}
 
+img#alvin {
+  position: relative;
+  top: -10px;
+  left: -10px;
+  width: 700px;
+  display: inline-block;
+}
 
-nav ul a,
-nav .brand-logo {
-  color: #444;
+h1#title {
+  color: white;
+  z-index: 1;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: lighter;
+  font-size: 53px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 700px;
+  top: -500px;
+}
+h3#subtitle {
+  color: white;
+  z-index: 1;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: lighter;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 700px;
+  top: -500px;
 }
 nav {
-  background-color: white;
-}
-p {
-  line-height: 2rem;
-}
-
-.button-collapse {
-  color: #444444;
-  margin-left: 10px;
-}
-
-.parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
-}
-.parallax-container#nyc-letters {
-  height: 600px;
-}
-.parallax-container#rguarascia {
-  height: 550px;
-}
-  .parallax-container .section {
-    width: 100%;
-  }
-
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
-  img.skyline {display: none;}
-}
-
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
-}
-
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-  font-size: inherit;
-}
-
-footer.page-footer {
-  margin: 0;
+  color: white;
+  z-index: 1;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: lighter;
+  font-size: 18px;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
