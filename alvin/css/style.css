@@ -1,7 +1,11 @@
+@font-face {
+  font-family: fancy;
+  src: url(../HACKED.ttf);
+}
 html, body
 {
     height: auto;
-    width: 500px;
+    width: 1440px;
 }
 body {
   background-image: url(../images/alvin.png);
@@ -13,20 +17,27 @@ body {
 nav {
   position: relative;
   top: 0;
-  left: 1040px;
+  left: 780px;
+  width: 700px;
 }
 a {
   text-decoration: none;
   color: white;
+  font-size: 22px;
 }
 h1 {
   font-family: "Times New Roman", Times, serif;
   font-weight: lighter;
+  font-style: italic;
   color: white;
   position: relative;
   left: 710px;
   top: 210px;
   font-size: 53px;
+  width: 30%;
+}
+h1#main {
+  font-family: fancy;
 }
 h1#sub {
   left: 770px;
@@ -34,7 +45,7 @@ h1#sub {
   font-size: 30px;
 }
 h1#copy {
-  left: 860px;
+  left: 850px;
   top: 190px;
-  font-size: 20px;
+  font-size: 28px;
 }
