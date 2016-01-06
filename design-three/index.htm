@@ -26,9 +26,9 @@
     </script>
     <style>
     *{
-    padding:0;
-    margin:0;
-}
+        padding:0;
+        margin:0;
+    }
     @font-face {
         font-family: title;
         src: url(./San-Francisco-Thin.ttf);
@@ -73,8 +73,8 @@
         }
         #content{
             background-color: transparent;
-             background-image:       linear-gradient(0deg, transparent 24%, rgba(0, 0, 0, .05) 25%, rgba(0, 0, 0, .05) 26%, transparent 27%, transparent 74%, rgba(0, 0, 0, .05) 75%, rgba(0, 0, 0, .05) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(0, 0, 0, .05) 25%, rgba(0, 0, 0, .05) 26%, transparent 27%, transparent 74%, rgba(0, 0, 0, .05) 75%, rgba(0, 0, 0, .05) 76%, transparent 77%, transparent);
-            height:100%;
+             background-image:linear-gradient(0deg, transparent 24%, rgba(0, 0, 0, .05) 25%, rgba(0, 0, 0, .05) 26%, transparent 27%, transparent 74%, rgba(0, 0, 0, .05) 75%, rgba(0, 0, 0, .05) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(0, 0, 0, .05) 25%, rgba(0, 0, 0, .05) 26%, transparent 27%, transparent 74%, rgba(0, 0, 0, .05) 75%, rgba(0, 0, 0, .05) 76%, transparent 77%, transparent);
+            height:62%;
             background-size:50px 50px;
         }
         body {
@@ -88,18 +88,32 @@
             background-color: #e7e5e5;
             background-image:linear-gradient(#e7e5e5, #cac8c8);
         }
+        div.background {
+            background-image: url(back.jpg);
+            background-position: center;
+            background-size: 100%;
+            padding-top: 300px;
+            -webkit-filter: blur(5px);
+            -moz-filter: blur(5px);
+            -o-filter: blur(5px);
+            -ms-filter: blur(5px);
+            filter: blur(5px);
+        }
         div.head-text {
             position: relative;
-            top: 30%;
+            top: -230px;
+            color: white;
+            font-size: 100% !important;
         }
     </style>
 </head>
 <body>
+<div class="background"></div>
 <div id="content">
     <div class="head-text">
         <h1 class="tagline">I'm <span id="typed"></span></h1>
         <h4 class="sub-tagline">web developer / graphic designer / programmer</h4>
-</div>
     </div>
+</div>
 </body>
 </html>
