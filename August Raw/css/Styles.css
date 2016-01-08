@@ -273,3 +273,7 @@ a {
 	text-decoration: none;
 	color: black !important;
 }
+div.zoomwall {
+	width: 80% !important;
+	margin: 0 auto;
+}
