@@ -39,6 +39,9 @@ div.content {
 .mobilenav li a {
 	font-size: 300% !important;
 }
+div.zoomwall {
+	width: 100% !important;
+}
 }
 
 /* END */
