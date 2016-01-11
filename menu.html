@@ -1,0 +1,187 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Responsive Horizontal Accordion Demo</title>
+<style class="cp-pen-styles">
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:700);
+
+h1 {
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  color: #333;
+  margin-top:150px;
+}
+
+.accordion {
+  position: relative;
+  top: 150px;
+  left: -480px;
+  width: 50%;
+  max-width: 1080px;
+  height: 350px;
+  overflow: hidden;
+  margin: 50px auto;
+    -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+  transform: rotate(90deg);
+}
+
+.accordion ul {
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+.accordion ul li {
+  display: table-cell;
+  vertical-align: bottom;
+  position: relative;
+  width: 16.666%;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: all 500ms ease;
+}
+
+.accordion ul li div {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+}
+
+.accordion ul li div a {
+  display: block;
+  height: 350px;
+  width: 100%;
+  position: relative;
+  z-index: 3;
+  vertical-align: bottom;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  color: #fff;
+  text-decoration: none;
+  font-family: Open Sans, sans-serif;
+  transition: all 200ms ease;
+}
+
+.accordion ul li div a * {
+  opacity: 0;
+  margin: 0;
+  width: 100%;
+  text-overflow: ellipsis;
+  position: relative;
+  z-index: 5;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-transform: translateX(-20px);
+  transform: translateX(-20px);
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+
+.accordion ul li div a h2 {
+  font-family: Montserrat, sans-serif;
+  text-overflow: clip;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+  top: 160px;
+}
+
+.accordion ul li div a p {
+  top: 160px;
+  font-size: 13.5px;
+}
+
+.accordion ul li:nth-child(1) { background-image: url("https://unsplash.it/650/350?image=675"); }
+
+.accordion ul li:nth-child(2) { background-image: url("https://unsplash.it/650/350?image=674"); }
+
+.accordion ul li:nth-child(3) { background-image: url("https://unsplash.it/650/350?image=673"); }
+
+.accordion ul li:nth-child(4) { background-image: url("https://unsplash.it/650/350?image=672"); }
+
+.accordion ul li:nth-child(5) { background-image: url("https://unsplash.it/650/350?image=671"); }
+
+.accordion ul li:nth-child(6) { background-image: url("https://unsplash.it/650/350?image=670"); }
+
+.accordion ul:hover li { width: 8%; }
+
+.accordion ul:hover li:hover { width: 60%; }
+
+.accordion ul:hover li:hover a { background: rgba(0, 0, 0, 0.4); }
+
+.accordion ul:hover li:hover a * {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+ @media screen and (max-width: 600px) {
+
+body { margin: 0; }
+
+.accordion { height: auto; }
+
+.accordion ul li,
+.accordion ul li:hover,
+.accordion ul:hover li,
+.accordion ul:hover li:hover {
+  position: relative;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  -webkit-transition: none;
+  transition: none;
+}
+}
+</style>
+<link href="http://www.cssscript.com/wp-includes/css/sticky.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="accordion">
+  <ul>
+    <li>
+      <div> <a href="#">
+        <h2>Lorem Ipsum</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </a> </div>
+    </li>
+    <li>
+      <div> <a href="#">
+        <h2>Lorem Ipsum</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </a> </div>
+    </li>
+    <li>
+      <div> <a href="#">
+        <h2>Lorem Ipsum</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </a> </div>
+    </li>
+    <li>
+      <div> <a href="#">
+        <h2>Lorem Ipsum</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </a> </div>
+    </li>
+    <li>
+      <div> <a href="#">
+        <h2>Lorem Ipsum</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </a> </div>
+    </li>
+    <li>
+      <div> <a href="#">
+        <h2>Lorem Ipsum</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </a> </div>
+    </li>
+  </ul>
+</div>
+</body>
+</html>
