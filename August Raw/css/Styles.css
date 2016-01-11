@@ -39,6 +39,17 @@ div.content {
 .mobilenav li a {
 	font-size: 240% !important;
 }
+.top-menu {
+	width: 35px !important;
+}
+.mid-menu {
+	width: 35px !important;
+	top: 15px !important; 
+}
+.bottom-menu {
+	width: 35px !important;
+	top: 25px !important; 
+}
 div.zoomwall {
 	width: 100% !important;
 }
@@ -103,6 +114,9 @@ div.content {
 .bottom-menu {
 	width: 35px !important;
 	top: 25px !important; 
+}
+div.zoomwall {
+	width: 100% !important;
 }
 }
 /* END */
@@ -288,11 +302,14 @@ a {
 	color: black !important;
 }
 div.zoomwall {
-	width: 85% !important;
+	width: 85%;
 	margin: 0 auto;
 }
 p.help {
 	text-align: center;
 	color: darkgrey;
 	margin: 0 !important;padding: 0 !importantl
+}
+footer {
+	margin: 50px;
 }

@@ -1,80 +1,121 @@
 <!DOCTYPE html>
+<!--
+╔═╗╔═╗────────────────╔╗────────╔╗
+║║╚╝║║────────────────║║───────╔╝╚╗
+║╔╗╔╗║╔╗╔═╗─╔╗╔╗╔╗╔══╗║║─╔╗╔══╗╚╗╔╝
+║║║║║║╠╣║╔╗╗╠╣║╚╝║║╔╗║║║─╠╣║══╣─║║
+║║║║║║║║║║║║║║║║║║║╔╗║║╚╗║║╠══║─║╚╗
+╚╝╚╝╚╝╚╝╚╝╚╝╚╝╚╩╩╝╚╝╚╝╚═╝╚╝╚══╝─╚═╝
+╔═══╗─────╔═╗─╔╗
+║╔═╗║─────║╔╝╔╝╚╗
+║╚══╗╔══╗╔╝╚╗╚╗╔╝╔╗╔╗╔╗╔══╗╔═╗╔══╗
+╚══╗║║╔╗║╚╗╔╝─║║─║╚╝╚╝║║╔╗║║╔╝║║═╣
+║╚═╝║║╚╝║─║║──║╚╗╚╗╔╗╔╝║╔╗║║║─║║═╣
+╚═══╝╚══╝─╚╝──╚═╝─╚╝╚╝─╚╝╚╝╚╝─╚══╝
+
+- Created by Ryan Guarascia on 2016-01-10.
+- Copyright © 2016 Minimalist Software. All rights reserved.
+- Email: rguarascia@gmail.com
+-->
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>August Raw | Contact</title>
-<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script>var $j11 = jQuery.noConflict(true);</script>
-<script src="./js/jquery.bxslider.min.js"></script>
-<script type="text/javascript" src="./js/loadr.js"></script>
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.1/css/animsition.min.css">
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.1/js/animsition.min.js"></script>
-<!-- FastClick lib -->
-<script type="application/javascript" src="./js/fastclick.js"></script>
-<script src="./js/modernizr.js"></script>
-<link rel="stylesheet" type="text/css" href="./css/Styles.css">
-<style type="text/css">
-.form-style-8 {
-	font-family: 'Open Sans Condensed', arial, sans;
-	width: 500px;
-	padding: 30px;
-	background: #FFFFFF;
-	margin: 50px auto;
-	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
-	-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
-	-webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
-}
-.form-style-8 h2 {
-	border-bottom: 1px solid #ddd;
-	text-transform: uppercase;
-	font-family: custom;
-	text-align: center;
-	color: #999;
-	font-size: 18px;
-	font-weight: 100;
-	padding: 20px;
-	margin: -30px -30px 30px -30px;
-}
-.form-style-8 input[type="text"], .form-style-8 input[type="date"], .form-style-8 input[type="datetime"], .form-style-8 input[type="email"], .form-style-8 input[type="number"], .form-style-8 input[type="search"], .form-style-8 input[type="time"], .form-style-8 input[type="url"], .form-style-8 input[type="password"], .form-style-8 textarea, .form-style-8 select {
-	box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	outline: none;
-	display: block;
-	width: 100%;
-	padding: 7px;
-	border: none;
-	border-bottom: 1px solid #ddd;
-	background: transparent;
-	margin-bottom: 10px;
-	font: 16px custom;
-	height: 45px;
-}
-.form-style-8 textarea {
-	resize: none;
-	overflow: hidden;
-}
-.form-style-8 input[type="button"], .form-style-8 input[type="submit"] {
-	background-color: white;
-	border: 1px solid #999;
-	display: inline-block;
-	cursor: pointer;
-	color: #999;
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 14px;
-	padding: 8px 18px;
-	text-decoration: none;
-	text-transform: uppercase;
-}
-.form-style-8 input[type="button"]:hover, .form-style-8 input[type="submit"]:hover {
-	-webkit-box-shadow: 0px 0px 8px 2px #999;
-	-moz-box-shadow: 0px 0px 8px 2px #999;
-	box-shadow: 0px 0px 8px 2px #999;
-	border: 1px solid white;
-}
-</style>
+<!-- metas-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="August Raw is a local mens fashion clothing line. Based out of Hamilton, Ontario, Canada">
+    <meta name="keywords" content="Clothing, Mens fashion, Mens, shirts, hats, hamilton, ontario, canada">
+    <meta name="author" content="Ryan Guarascia">
+    <title>August Raw | Contact</title>
+
+
+<!-- Imports -->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>var $j11 = jQuery.noConflict(true);</script>
+
+
+<!-- CSS imports -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.1/css/animsition.min.css">
+    <link href="./css/jquery.bxslider.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="./css/Styles.css">
+
+
+<!-- JS imports -->
+    <script type="text/javascript" src="./js/loadr.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.1/js/animsition.min.js"></script>
+    <!-- FastClick lib -->
+    <script type="application/javascript" src="./js/fastclick.js"></script>
+    <script src="./js/modernizr.js"></script>
+    <!-- bxslider -->
+    <script src="./js/jquery.bxslider.min.js"></script>
+
+<!-- Form Styles -->
+		<style type="text/css">
+		.form-style-8 {
+			font-family: 'Open Sans Condensed', arial, sans;
+			width: 500px;
+			padding: 30px;
+			background: #FFFFFF;
+			margin: 50px auto;
+			box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+			-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+			-webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+		}
+		.form-style-8 h2 {
+			border-bottom: 1px solid #ddd;
+			text-transform: uppercase;
+			font-family: custom;
+			text-align: center;
+			color: #999;
+			font-size: 18px;
+			font-weight: 100;
+			padding: 20px;
+			margin: -30px -30px 30px -30px;
+		}
+		.form-style-8 input[type="text"], .form-style-8 input[type="date"], .form-style-8 input[type="datetime"], .form-style-8 input[type="email"], .form-style-8 input[type="number"], .form-style-8 input[type="search"], .form-style-8 input[type="time"], .form-style-8 input[type="url"], .form-style-8 input[type="password"], .form-style-8 textarea, .form-style-8 select {
+			box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			outline: none;
+			display: block;
+			width: 100%;
+			padding: 7px;
+			border: none;
+			border-bottom: 1px solid #ddd;
+			background: transparent;
+			margin-bottom: 10px;
+			font: 16px custom;
+			height: 45px;
+		}
+		.form-style-8 textarea {
+			resize: none;
+			overflow: hidden;
+		}
+		.form-style-8 input[type="button"], .form-style-8 input[type="submit"] {
+			background-color: white;
+			border: 1px solid #999;
+			display: inline-block;
+			cursor: pointer;
+			color: #999;
+			font-family: 'Open Sans Condensed', sans-serif;
+			font-size: 14px;
+			padding: 8px 18px;
+			text-decoration: none;
+			text-transform: uppercase;
+		}
+		.form-style-8 input[type="button"]:hover, .form-style-8 input[type="submit"]:hover {
+			-webkit-box-shadow: 0px 0px 8px 2px #999;
+			-moz-box-shadow: 0px 0px 8px 2px #999;
+			box-shadow: 0px 0px 8px 2px #999;
+			border: 1px solid white;
+		}
+		</style>
 </head>
+
+
+
+
+
+
 <body>
 <div id="header"> <a href="./index.html"><span class="august">August</span><span class="raw"><span class="symbol">?</span><span class="symbol">!</span>RAW</span></a>
   <div class="logos"> <img width="6%" src="./images/create_conquer.png"> <img width="6%" src="./images/lion-raw.png">  <img width="6%" src="./images/raw-wings2.png">  </div>
@@ -108,6 +149,7 @@
     </div>
   </div>
 </div>
+<footer><p class="help">Copyright © 2016 Minimalist Software. All rights reserved.</p></footer>
 <script type="text/javascript">
   
 $(document).ready(function () {
