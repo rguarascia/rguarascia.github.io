@@ -8,8 +8,8 @@ span.symbol, span.raw, span.august {
 	font-size: .8em !important;
 }
 .icon {
-	top: 0px !important;
-	left: 0px !important;
+	top: 10px !important;
+	left: 10px !important;
 }
 .bx-wrapper {
 	width: 95% !important;
@@ -37,7 +37,7 @@ div.content {
 	margin: auto !important;
 }
 .mobilenav li a {
-	font-size: 300% !important;
+	font-size: 240% !important;
 }
 div.zoomwall {
 	width: 100% !important;
@@ -50,7 +50,7 @@ div.zoomwall {
 /* ------------------- Resized browser -------------------*/
 @media screen and (max-width: 840px) {
 div.logos img {
-	width: 5% !important;
+	width: 8% !important;
 }
 div.logos {
 	position: relative !important;
@@ -63,8 +63,8 @@ div.wrapper {
 	top: -30px;
 }
 .icon {
-	top: 0px !important;
-	left: 0px !important;
+	top: 10px !important;
+	left: 10px !important;
 }
 .bx-wrapper {
 	width: 95% !important;
@@ -91,7 +91,18 @@ div.content {
 	margin: auto !important;
 }
 .mobilenav li a {
-	font-size: 300% !important;
+	font-size: 240% !important;
+}
+.top-menu {
+	width: 35px !important;
+}
+.mid-menu {
+	width: 35px !important;
+	top: 15px !important; 
+}
+.bottom-menu {
+	width: 35px !important;
+	top: 25px !important; 
 }
 }
 /* END */
@@ -263,14 +274,14 @@ div.content {
 }
 .mobilenav li a {
 	font-family: norml-font !important;
-	font-size: 280%;
+	font-size: 240%;
 	color: black;
 	text-decoration: none;
 	font-weight: 300;
 	width: 100%;
 }
 .mobilenav li:first-child {
-	margin-top: 60px;
+	margin-top: 35px;
 }
 a {
 	text-decoration: none;
@@ -279,4 +290,9 @@ a {
 div.zoomwall {
 	width: 85% !important;
 	margin: 0 auto;
+}
+p.help {
+	text-align: center;
+	color: darkgrey;
+	margin: 0 !important;padding: 0 !importantl
 }
