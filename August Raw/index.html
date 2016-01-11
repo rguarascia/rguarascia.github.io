@@ -6,7 +6,6 @@
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script>var $j11 = jQuery.noConflict(true);</script>
-<script src="./js/jquery.bxslider.min.js"></script>
 <script type="text/javascript" src="./js/loadr.js"></script>
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.1/css/animsition.min.css">
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.1/js/animsition.min.js"></script>
@@ -15,6 +14,7 @@
 <script src="./js/modernizr.js"></script>
 <!-- bxslider -->
 <link href="./css/jquery.bxslider.css" rel="stylesheet" />
+<script src="./js/jquery.bxslider.min.js"></script>
 <link rel="stylesheet" type="text/css" href="./css/Styles.css">
 </head>
 <body>
@@ -68,9 +68,11 @@ $(document).ready(function () {
 </script> 
 <script type="text/javascript">
   
-  $(document).ready(function(){
-    $('.bxslider').bxSlider();
-  });
+  $(document).ready(function () {
+    $('.bxslider').bxSlider({
+    });
+});
+
 
   $(function() {
     FastClick.attach(document.body);
