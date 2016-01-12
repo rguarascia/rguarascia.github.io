@@ -69,6 +69,14 @@ div.logos {
 }
 span.symbol, span.raw, span.august {
 	font-size: 70% !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+span.symbol {
+	font-size: 70% !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	letter-spacing: 1px;
 }
 div.wrapper {
 	top: -30px;
@@ -152,7 +160,7 @@ div.zoomwall {
 /* ------------------- Regular Styles -------------------*/
 span.symbol {
 	font-family: Agency_FB;
-	font-size: 0.9em;
+	font-size: 1.1em;
 }
 span.raw {
 	font-family: norml-font;
@@ -163,6 +171,10 @@ span.august {
 	font-family: norml-font;
 	font-size: 1.2em;
 	letter-spacing: 4px;
+}
+div#header a {
+	position: relative;
+	top: -20px;
 }
 body {
 	text-rendering: optimizeLegibility;
@@ -312,4 +324,7 @@ p.help {
 }
 footer {
 	margin: 50px;
+}
+body {
+	background-color: #F5F5F5 !important;
 }
