@@ -336,6 +336,7 @@ body {
 	height: 100%;
 
 	background-image: url(../background.jpg) !important;
+	background-repeat: no-repeat;
 	background-position: center !important;
 	-webkit-background-size: cover !important;
   	-moz-background-size: cover !important;
