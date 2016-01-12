@@ -337,6 +337,7 @@ body {
 
 	background-image: url(../background.jpg) !important;
 	background-position: center !important;
+	background-size: 100% auto;
 	-webkit-background-size: cover !important;
   	-moz-background-size: cover !important;
   	-o-background-size: cover !important;
