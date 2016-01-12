@@ -217,7 +217,7 @@ div.content {
 	margin: 0 auto;
 	font-family: custom;
 	color: white;
-	background-color: black;
+	background-color: none;
 	border-radius: 0px 0px 10px 10px;
 	padding: 5px;
 	font-size: 1em;
