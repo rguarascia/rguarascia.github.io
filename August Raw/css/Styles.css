@@ -161,16 +161,19 @@ div.zoomwall {
 span.symbol {
 	font-family: Agency_FB;
 	font-size: 1.1em;
+	color: white;
 }
 span.raw {
 	font-family: norml-font;
 	font-size: 1.2em;
 	letter-spacing: 4px;
+	color: white;
 }
 span.august {
 	font-family: norml-font;
 	font-size: 1.2em;
 	letter-spacing: 4px;
+	color: white;
 }
 div#header a {
 	position: relative;
@@ -210,10 +213,13 @@ img#header {
 	border: 1px solid #021a40;
 }
 div.content {
-	width: 800px;
+	width: 790px;
 	margin: 0 auto;
 	font-family: custom;
-	color: #999;
+	color: white;
+	background-color: black;
+	border-radius: 0px 0px 10px 10px;
+	padding: 5px;
 	font-size: 1em;
 	text-align: left;
 }
@@ -224,7 +230,7 @@ div.content {
 	-webkit-tap-highlight-color: transparent;/* For some Androids */
 }
 .top-animate {
-	background: black !important;
+	background: white !important;
 	top: 13px !important;
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
@@ -233,7 +239,7 @@ div.content {
 	opacity: 0;
 }
 .bottom-animate {
-	background: black !important;
+	background: white !important;
 	top: 13px !important;
 	-webkit-transform: rotate(-225deg);
 	transform: rotate(-225deg);
@@ -243,24 +249,24 @@ div.content {
 	width: 25px;
 	height: 2px;
 	border-radius: 10px;
-	background-color: #F9A530;
+	background-color: white;
 }
 .mid-menu {
 	top: 13px;
 	width: 25px;
 	height: 2px;
 	border-radius: 10px;
-	background-color: #F9A530;
+	background-color: white;
 }
 .bottom-menu {
 	top: 21px;
 	width: 25px;
 	height: 2px;
 	border-radius: 10px;
-	background-color: #F9A530;
+	background-color: white;
 }
 .menui {
-	background: black;
+	background: white;
 	transition: 0.6s ease;
 	transition-timing-function: cubic-bezier(.75, 0, .29, 1.01);
 	margin-top: 10px;
@@ -276,7 +282,7 @@ div.content {
 	margin: 0px;
 	top: 150;
 	left: 50px;
-	color: black !important;
+	color: white !important;
 }
 .mobilenav {
 	font-family: inherit;
@@ -319,12 +325,20 @@ div.zoomwall {
 }
 p.help {
 	text-align: center;
-	color: darkgrey;
-	margin: 0 !important;padding: 0 !importantl
+	color: lightgrey;
+	margin: 0 !important;padding: 0 !important;
 }
 footer {
 	margin: 50px;
 }
 body {
-	background-color: #F5F5F5 !important;
+	width: 100%;
+	height: 100%;
+
+	background-image: url(../background.jpg) !important;
+	background-position: center !important;
+	-webkit-background-size: cover !important;
+  	-moz-background-size: cover !important;
+  	-o-background-size: cover !important;
+  	background-size: cover !important;
 }
