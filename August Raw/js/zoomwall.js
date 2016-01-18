@@ -154,11 +154,6 @@ var zoomwall = {
 			zoomwall.reset(next);
 			next = next.nextElementSibling;
 		}
-
-		// swap images
-		if (block.dataset.lowres) {
-			block.src = block.dataset.lowres;
-		}
 	},
 
 	expand: function(block) {
