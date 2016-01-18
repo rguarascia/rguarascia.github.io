@@ -37,6 +37,7 @@ a {
 .container {
 	width: 100%;
 	position: relative;
+	margin-top: 100px;
 }
 .container > header {
 	width: 90%;
