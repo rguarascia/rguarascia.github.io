@@ -21,10 +21,37 @@
     </div>
     <div class="head-text">
       <h1 class="tagline">I'm <span id="typed"></span></h1>
-      <h4 class="sub-tagline">web developer / graphic designer / programmer</h4>
+      <h4 class="sub-tagline"><a href="#web">web developer</a> / <a href="#graphic">graphic designer</a> / <a href="#programmer">programmer</a></h4>
     </div>
   </div>
-
+  <div id="second">
+    <a name="web"></a>
+    <h1 id="subtitle">&lt;Web Developer/&gt;</h1>
+    <h2 id="blurb">Making your designs come to life</h2>
+    <div class="logos">
+      <img src="./imgs/js.png" />
+      <img src="./imgs/css.png" />
+      <img src="./imgs/html5.png" />
+    </div>
+  </div>
+  <div id="third">
+    <a name="graphic"></a>
+    <h1 id="subtitle">Graphic Designer</h1>
+    <h2 id="blurb">Making your imagination come to life</h2>
+    <div class="logos">
+      <img src="./imgs/photoshop.png" />
+      <img src="./imgs/illustrator.png" />
+    </div>
+  </div>
+  <div id="forth">
+    <a name="programmer"></a>
+    <h1 id="subtitle">Programmer</h1>
+    <h2 id="blurb">Making your ideas come to life</h2>
+    <div class="logos">
+      <img src="./imgs/java.png" />
+      <img id="net" src="./imgs/dot-net.png" />
+    </div>
+  </div>
 
   <script>
   $(function(){
@@ -43,6 +70,9 @@
           $(".head-text").addClass("lift-text");
       }
   });
+  $(document).ready(function(){
+    $(".container").hide(0).delay(50).fadeIn(2000)
+    });
   </script>
 </body>
 
