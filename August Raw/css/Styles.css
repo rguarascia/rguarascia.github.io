@@ -44,11 +44,11 @@ div.content {
 }
 .mid-menu {
 	width: 35px !important;
-	top: 15px !important; 
+	top: 15px !important;
 }
 .bottom-menu {
 	width: 35px !important;
-	top: 25px !important; 
+	top: 25px !important;
 }
 div.zoomwall {
 	width: 100% !important;
@@ -121,11 +121,11 @@ div.content {
 }
 .mid-menu {
 	width: 35px !important;
-	top: 15px !important; 
+	top: 15px !important;
 }
 .bottom-menu {
 	width: 35px !important;
-	top: 25px !important; 
+	top: 25px !important;
 }
 div.zoomwall {
 	width: 100% !important;
@@ -226,6 +226,9 @@ img#header {
 	display: block !important;
 	padding: 1px;
 	border: 1px solid #021a40;
+	width: 70%;
+	height: 70%;
+	margin-top: 50px !important;
 }
 @font-face {
 	src: url(../font/Distant_Stroke.otf);
@@ -242,15 +245,17 @@ h3#motto {
 	top: -130px;
 }
 div.content {
-	width: 790px;
+	width: 70%;
 	margin: 0 auto;
 	font-family: custom;
 	color: white;
 	background-color: none;
 	border-radius: 0px 0px 10px 10px;
-	padding: 5px;
 	font-size: 1em;
 	text-align: left;
+}
+div.content p {
+	padding: 5px;
 }
 /* ----------------------  Menu  -------------------------` */
 * {

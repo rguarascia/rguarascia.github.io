@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+  <title>Ryan Guarascia | Design Four</title>
+  <link rel="stylesheet" href="./style.css" />
+  <!-- Get jQuery -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="./typed.js" type="text/javascript"></script>
+</head>
+
+<body>
+  <div id="desk">
+    <div class="container">
+      <img id="coffee" src="./imgs/Coffee.png" />
+      <img id="mac" src="./imgs/MacBook.png" />
+      <img id="phone" src="./imgs/iphone.png" />
+      <img id="charger" src="./imgs/Charger.png" />
+      <img id="camera" src="./imgs/Camera%20lying.png" />
+      <img id="watch" src="./imgs/watch.png" />
+      <img id="glasses" src="./imgs/glasses.png" />
+    </div>
+    <div class="head-text">
+      <h1 class="tagline">I'm <span id="typed"></span></h1>
+      <h4 class="sub-tagline">web developer / graphic designer / programmer</h4>
+    </div>
+  </div>
+
+
+  <script>
+  $(function(){
+      $(".reset").click(function(){
+          $("#typed").typed('reset');
+      });
+      $("#typed").typed({
+      strings: ["a web developer.", "a graphic designer.", "a programmer.", "Ryan Guarascia."],
+      typeSpeed: 30,
+      callback: function(){
+          lift();
+       }
+      });
+
+      function lift(){
+          $(".head-text").addClass("lift-text");
+      }
+  });
+  </script>
+</body>
+
+</html>
