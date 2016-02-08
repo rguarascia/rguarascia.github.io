@@ -6,10 +6,11 @@
   <!-- Get jQuery -->
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="./typed.js" type="text/javascript"></script>
+  <!-- Compiled and minified CSS -->
 </head>
 
 <body>
-  <div id="desk">
+  <div class ="top" id="desk">
     <div class="container">
       <img id="coffee" src="./imgs/Coffee.png" />
       <img id="mac" src="./imgs/MacBook.png" />
@@ -24,32 +25,35 @@
       <h4 class="sub-tagline"><a href="#web">web developer</a> / <a href="#graphic">graphic designer</a> / <a href="#programmer">programmer</a></h4>
     </div>
   </div>
+
   <div id="second">
     <a name="web"></a>
     <h1 id="subtitle">&lt;Web Developer/&gt;</h1>
     <h2 id="blurb">Making your designs come to life</h2>
-    <div class="logos">
+    <div align="center" class="wrap">
       <img src="./imgs/js.png" />
       <img src="./imgs/css.png" />
       <img src="./imgs/html5.png" />
     </div>
   </div>
+
   <div id="third">
     <a name="graphic"></a>
     <h1 id="subtitle">Graphic Designer</h1>
     <h2 id="blurb">Making your imagination come to life</h2>
-    <div class="logos">
+    <div align="center" class="wrap">
       <img src="./imgs/photoshop.png" />
       <img src="./imgs/illustrator.png" />
     </div>
   </div>
+
   <div id="forth">
     <a name="programmer"></a>
     <h1 id="subtitle">Programmer</h1>
     <h2 id="blurb">Making your ideas come to life</h2>
-    <div class="logos">
+    <div align="center" class="wrap">
       <img src="./imgs/java.png" />
-      <img id="net" src="./imgs/dot-net.png" />
+      <img src="./imgs/dot-net.png" />
     </div>
   </div>
 
@@ -70,9 +74,14 @@
           $(".head-text").addClass("lift-text");
       }
   });
+
   $(document).ready(function(){
     $(".container").hide(0).delay(50).fadeIn(2000)
-    });
+  });
+
+  $(window).scroll(function(){
+    $(".top").css("opacity", 1 - $(window).scrollTop() / 1000);
+  });
   </script>
 </body>
 
