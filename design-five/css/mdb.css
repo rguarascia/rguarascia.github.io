@@ -4063,7 +4063,7 @@ small {
 
 .card .card-image .card-title {
   position: absolute;
-  bottom: 0;
+  bottom: 0px;
   left: 0;
   padding: 20px;
 }
