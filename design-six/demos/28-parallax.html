@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Ryan Guarascia | Experience Parallax</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="../dist/css/swiper.min.css">
+
+    <!-- Demo styles -->
+    <style>
+    html, body {
+        position: relative;
+        height: 100%;
+    }
+    body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+        background: #000;
+    }
+    .swiper-slide {
+        font-size: 18px;
+        color:#fff;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 40px 60px;
+        font-family: sft;
+        letter-spacing: 2px;
+    }
+    .parallax-bg {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 130%;
+        height: 130%;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center;
+    }
+    .swiper-slide .title {
+        font-size: 41px;
+        font-weight: 300;
+        text-align: center;
+    }
+    .swiper-slide .subtitle {
+        font-size: 21px;
+        text-align: center;
+        font-style: italic;
+    }
+    .swiper-slide .text {
+        font-size: 14px;
+        width: 500px;
+        max-width: 500px;
+        line-height: 1.3;
+    }
+    .swiper-backer {
+      width: 38%;
+      background-color: rgba(64, 64, 64, 0.9);
+      border-radius: 10px;
+      padding: 30px;
+    }
+    @font-face {
+        font-family: sft;
+        src: url(./San-Francisco-Thin.ttf);
+    }
+
+    </style>
+</head>
+<body>
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="parallax-bg" style="background-image:url(./background.png)" data-swiper-parallax="-10%"></div>
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="swiper-backer">
+                <div class="title" data-swiper-parallax="-100">New York City</div>
+                <div class="subtitle" data-swiper-parallax="-200">Coperate Beauty</div>
+                <div class="text" data-swiper-parallax="-300">
+                    <p>Home to the Empire State Building, Times Square, Statue of Liberty and other iconic sites, New York City is a fast-paced, globally influential center of art, culture, fashion and finance. The city's 5 boroughs sit where the Hudson River meets the Atlantic Ocean, with the island borough of Manhattan at the "Big Apple's" core.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-backer">
+                <div class="title" data-swiper-parallax="-100">Empire State Building</div>
+                <div class="subtitle" data-swiper-parallax="-200">History in every brick</div>
+                <div class="text" data-swiper-parallax="-300">
+                    <p>The Empire State Building was completed in 1931, in the midst of the Great Depression. Upon completion, it became the tallest building in NY, surpassing the recently completed Chrysler Building, which had held the title for less than a year. Because of the ongoing Depression and the building's distance from public transportation, the Empire State Building had difficulty finding tenants, and for many years it was derisively referred to as the "Empty State Building." In fact, tenants were so few that in its first year of operation, the Empire State Building Observatory made as much money ($2 million) as the building's owners made in rent. It wasn't until the early 1950s, when the building was sold to Roger L. Stevens and his business partners, that the building began to be profitable.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-backer">
+                <div class="title" data-swiper-parallax="-100">Wall Street</div>
+                <div class="subtitle" data-swiper-parallax="-200">1.1km of cold blooded stock brokers</div>
+                <div class="text" data-swiper-parallax="-300">
+                  <p>Wall Street is a 0.7-mile-long (1.1 km) street running eight blocks, roughly northwest to southeast, from Broadway to South Street on the East River in the Financial District of Lower Manhattan, New York City. Over time, the term has become a metonym for the financial markets of the United States as a whole, the American financial sector (even if financial firms are not physically located there), or signifying New York-based financial interests.</p>
+                </div>
+              </div>
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination swiper-pagination-white"></div>
+        <!-- Add Navigation -->
+        <div class="swiper-button-prev swiper-button-white"></div>
+        <div class="swiper-button-next swiper-button-white"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="../dist/js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        parallax: true,
+        speed: 900,
+    });
+    </script>
+</body>
+</html>
