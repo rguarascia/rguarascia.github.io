@@ -22,7 +22,13 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: #333333;
+}
+a.active:hover {
+    color:white !important;
+}
+a:hover {
+    color:#333333 !important;
 }
 
 h1,
@@ -34,6 +40,7 @@ h6 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+    color:#333333;
 }
 
 hr.star-light,
@@ -168,7 +175,7 @@ header .intro-text .skills {
 .navbar-default,
 .navbar-inverse {
     border: 0;
-    background-color: #5e731c;
+    background-color: #99bc2f;
 }
 
 section {
@@ -191,7 +198,7 @@ section.success a:focus,
 section.success a:active,
 section.success a.active {
     outline: 0;
-    color: #2c3e50;
+    color: #333333;
 }
 
 @media(max-width:767px) {
@@ -221,7 +228,7 @@ section.success a.active {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(24,188,156,.9);
+    background: rgba(51,51,51,.5);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -345,7 +352,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #5e731c;
+    background-color: #99bc2f;
 }
 
 footer .footer-col {
@@ -354,7 +361,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #404e14;
+    background-color: #5e731c;
 }
 
 .btn-social {
@@ -461,6 +468,11 @@ footer .footer-below {
 img.img-responsive {
     width: 30%;
 }
+img.resume {
+    image-rendering: pixelated;
+    position: relative;
+    left: -63px;
+}
 hr.Dark-Line {
     color:#333333 !important;
     border-top-color: #333333;
@@ -475,4 +487,14 @@ hr.Dark-Line {
 } 
 .active {
     background-color: #333333;
+}
+div#___ytsubscribe_0 {
+    height: 40px;
+}
+div.youtube {
+    position: relative;
+    left: 270px;
+}
+h2.title {
+    color: white;
 }
