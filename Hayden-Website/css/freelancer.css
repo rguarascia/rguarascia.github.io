@@ -106,7 +106,7 @@ header .intro-text .name {
     display: block;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 2em;
+    font-size: 1.50em;
     font-weight: 700;
 }
 
@@ -122,7 +122,7 @@ header .intro-text .skills {
     }
 
     header .intro-text .name {
-        font-size: 4.75em;
+        font-size: 1.90em;
     }
 
     header .intro-text .skills {
@@ -482,7 +482,7 @@ hr.Dark-Line {
     color:#333333;
 }
 .btn-success {
-    background-color: #5e731c;
+    background-color: #99bc2f;
     border: none;
 } 
 .active {
@@ -492,8 +492,8 @@ div#___ytsubscribe_0 {
     height: 40px;
 }
 div.youtube {
-    position: relative;
-    left: 270px;
+    width: 200px;
+margin:0 auto;
 }
 h2.title {
     color: white;
