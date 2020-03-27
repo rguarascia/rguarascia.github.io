@@ -1,4 +1,4 @@
-![Segmented Partner Overview](/assets/images/Segmented-partner.svg)
+![Segmented Partner Overview](/assets/images/Segmented.svg)
 {% raw %}
 <h1 style="display: none;">Segmented Partner</h1>
 {% endraw %}
