@@ -1,0 +1,43 @@
+{
+  "name": "celsius-sdk",
+  "version": "0.10.12",
+  "author": {
+    "name": "Celsius Network",
+    "email": "",
+    "url": "https://celsius.network/"
+  },
+  "homepage": "https://celsius.network",
+  "typings": "./index.d.ts",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/CelsiusNetwork/celsius-js-sdk"
+  },
+  "bugs": {
+    "url": "https://github.com/CelsiusNetwork/celsius-js-sdk/issues",
+    "mail": ""
+  },
+  "main": "./index.js",
+  "scripts": {
+    "eslint ": "eslint lib/*",
+    "jsdoc": "jsdoc -r -c ./docs/jsdoc/config.json",
+    "swagger": "",
+    "test": "echo Passed;"
+  },
+  "dependencies": {
+    "axios": "^0.18.1",
+    "form-data": "^2.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "pre-commit": "^1.2.2",
+    "jsdoc": "^3.5.5",
+    "mocha": "^6.0.2",
+    "chai": "^4.2.0"
+  }
+}
